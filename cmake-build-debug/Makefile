@@ -123,6 +123,33 @@ h264/fast:
 	$(MAKE) -f CMakeFiles/h264.dir/build.make CMakeFiles/h264.dir/build
 .PHONY : h264/fast
 
+AnnexB/AnnexBReader.o: AnnexB/AnnexBReader.cpp.o
+
+.PHONY : AnnexB/AnnexBReader.o
+
+# target to build an object file
+AnnexB/AnnexBReader.cpp.o:
+	$(MAKE) -f CMakeFiles/h264.dir/build.make CMakeFiles/h264.dir/AnnexB/AnnexBReader.cpp.o
+.PHONY : AnnexB/AnnexBReader.cpp.o
+
+AnnexB/AnnexBReader.i: AnnexB/AnnexBReader.cpp.i
+
+.PHONY : AnnexB/AnnexBReader.i
+
+# target to preprocess a source file
+AnnexB/AnnexBReader.cpp.i:
+	$(MAKE) -f CMakeFiles/h264.dir/build.make CMakeFiles/h264.dir/AnnexB/AnnexBReader.cpp.i
+.PHONY : AnnexB/AnnexBReader.cpp.i
+
+AnnexB/AnnexBReader.s: AnnexB/AnnexBReader.cpp.s
+
+.PHONY : AnnexB/AnnexBReader.s
+
+# target to generate assembly for a file
+AnnexB/AnnexBReader.cpp.s:
+	$(MAKE) -f CMakeFiles/h264.dir/build.make CMakeFiles/h264.dir/AnnexB/AnnexBReader.cpp.s
+.PHONY : AnnexB/AnnexBReader.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... h264"
+	@echo "... AnnexB/AnnexBReader.o"
+	@echo "... AnnexB/AnnexBReader.i"
+	@echo "... AnnexB/AnnexBReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

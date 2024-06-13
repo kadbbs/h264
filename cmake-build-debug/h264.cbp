@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/bbs/code/h264/AnnexB/AnnexBReader.cpp">
+			<Option target="h264"/>
+		</Unit>
+		<Unit filename="/home/bbs/code/h264/AnnexB/AnnexBReader.h">
+			<Option target="h264"/>
+		</Unit>
 		<Unit filename="/home/bbs/code/h264/main.cpp">
 			<Option target="h264"/>
 		</Unit>

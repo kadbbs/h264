@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/bbs/code/h264/AnnexB/AnnexBReader.cpp" "/home/bbs/code/h264/cmake-build-debug/CMakeFiles/h264.dir/AnnexB/AnnexBReader.cpp.o"
   "/home/bbs/code/h264/main.cpp" "/home/bbs/code/h264/cmake-build-debug/CMakeFiles/h264.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

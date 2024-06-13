@@ -74,12 +74,12 @@ clean: CMakeFiles/h264.dir/clean
 CMakeFiles/h264.dir/all:
 	$(MAKE) -f CMakeFiles/h264.dir/build.make CMakeFiles/h264.dir/depend
 	$(MAKE) -f CMakeFiles/h264.dir/build.make CMakeFiles/h264.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bbs/code/h264/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target h264"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bbs/code/h264/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target h264"
 .PHONY : CMakeFiles/h264.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/h264.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bbs/code/h264/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bbs/code/h264/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/h264.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bbs/code/h264/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/h264.dir/rule

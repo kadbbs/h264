@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/h264.dir/AnnexB/AnnexBReader.cpp.o"
   "CMakeFiles/h264.dir/main.cpp.o"
   "h264"
   "h264.pdb"
